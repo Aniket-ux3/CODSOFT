@@ -18,7 +18,7 @@ int main(){
         case '-':
             cout<<"The subtraction of the numbers is: "<<a - b;
             break;
-        case '%':
+        case '*':
             cout<<"The multiplication of the numbers is: "<<a * b;
             break;
         case '/':

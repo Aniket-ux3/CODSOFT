@@ -5,8 +5,8 @@
 using namespace std;
 
 int main() {
-    srand(time(0));
-    int num = rand() % 10 + 1;
+    srand(time(0)); //to generate a different randon number each time
+    int num = rand() % 10 + 1; //to generate a number ranging from 1 to 10
     int m;
 
     do {
@@ -18,9 +18,9 @@ int main() {
         } else if (m < num) {
             cout << "Higher.\n";
         }
-    } while (m != num);
+    } while (m != num);  //loop terminated when user guesses the number
 
     cout << "Congratulations! You guessed the number.\n";
-    getch();
+    getch();  
     return 0;
 }
